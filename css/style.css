@@ -67,7 +67,7 @@ img {max-width: 100%;}
 
 
 .row {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -105,7 +105,6 @@ img {max-width: 100%;}
 }
 
 .btn-big {
-    /* max-width: 40%; */
     margin: 2rem auto;
     background-color: rgb(65, 152, 227);
     color: white;
@@ -121,7 +120,6 @@ img {max-width: 100%;}
 @media screen and (min-width: 768px) {
     
     .row {
-        width: 90%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -141,24 +139,128 @@ img {max-width: 100%;}
         width: 50%;
         margin: 2rem 0;
     }
+    .card-text {
+        padding: 0;
+    }
 
 }
 
 @media screen and (min-width: 1440px) {
     
     .col-big {
-        display: flex;
-        
+        display: flex; 
     }
     
+    .title-text {
+        font-size: 2rem;
+    }
     .card-text {
         width: 50%;
+        font-size: 1.2rem;
+        
     }
 
     .img-col-big {
         width: 40%;
         margin: 0 auto;
+    }
+}
 
+/* STRATEGIC PLANNING SECTION */
+
+.strategic-wrapper {
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 3rem;
+    padding: 3rem 1rem;
+}
+
+.strategic-img {
+    padding: 3rem;
+}
+
+
+.strategic-text {
+    
+    padding: 0 2rem;
+    color: white;
+}
+
+.strategic-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.container-dev {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(232, 232, 232);
+    margin-top: 2rem;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+
+.dev-text {
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+.dev-title {
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.cta-dev {
+    padding: .5rem;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    background-color: blueviolet;
+    border-radius: 50%;
+    min-height: 50px;
+    width: 50px;
+    border: none;
+}
+
+/* QUERY WRAPPER STRATEGIC  */
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .strategic-img {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+
+    .strategic-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 0 1rem;
         
     }
+    
+    .container-strategic {
+        width: 40%;
+        padding: 0;
+        margin: 1rem 0 0;
+       
+    }
+
+    .container-dev {
+        width: 30%;
+        padding: 1rem 0;
+        margin: 0;
+    }
+ 
+    .dev-img img {
+        max-height: 300px;
+    }
+
+
 }
