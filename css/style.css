@@ -1,4 +1,5 @@
-/* RESET */
+/*  RESET  */
+
 
 * {
     margin: 0;
@@ -411,4 +412,60 @@ line-height: 1.8rem;}
     
 }
   
+
+/* BENEFIT SECTION  */
+
+.wrapper-benefits {
+    width: 100%;
+    background-color:rgb(147, 33, 254);
+}
+
+.container-benefits {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 3rem 0;
+   
+}
+
+.title-benefits {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.col-benefits {
+    background-color: white;
+    color: rgb(147, 33, 254);
+    padding: 2rem;
+    line-height: 1.5rem;
+    width: 100%;
+    margin: 2rem auto;
+    border-radius: 30px;
+}
+
+
+.num-card {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
     
+}
+
+.title-benefit-card {
+    
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.btn-benefit {
+    background-color: rgb(147, 33, 254);
+    color: white;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    width: 50%;
+    border-radius: 50px;
+}
