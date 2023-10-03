@@ -105,12 +105,12 @@ line-height: 1.8rem;}
 
 .col-card-icon {
     font-size: 8rem;
-    color: blue;
+    color: rgb(64, 123, 250);
 }
 .icon-title {  
     font-size: 1.4rem;
     padding: 1rem 0;
-    color: blue;
+    color: rgb(64, 123, 250);
 }
 
 
@@ -161,8 +161,10 @@ line-height: 1.8rem;}
     }
 
     .col {
-        width:calc( 90% / 3)
+        width:calc( 88% / 3);
+        padding: 1rem;
     }
+
     .btn-big {
         width: 50%;
         margin: 2rem 0;
