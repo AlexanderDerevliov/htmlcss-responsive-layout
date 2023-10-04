@@ -278,8 +278,8 @@ line-height: 1.8rem;}
         margin: 0;       
     }
 
-    .dev-text { 
-        line-height: 1rem;
+    .dev-text, .strategic-text { 
+        line-height: 1.4rem;
     } 
 
     .container-dev {
@@ -659,7 +659,7 @@ line-height: 1.8rem;}
 .copyright {
     color: white;
     font-size: 1.2rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 .copyright a, .text-end-footer a {
     color: rgb(42, 7, 244);
@@ -704,6 +704,7 @@ footer {
 .footer-text {
     margin: 2rem 0;
 }
+
 
 /* MEDIA QUERY FOOTER */
 
