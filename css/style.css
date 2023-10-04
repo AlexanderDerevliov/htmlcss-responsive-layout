@@ -54,6 +54,7 @@ img {max-width: 100%;
     padding: .5rem;
     background-color: rgb(65, 152, 227);
     border: none;
+    color: white;
     
 }
 
@@ -99,8 +100,6 @@ img {max-width: 100%;
     padding: 2rem 2rem 0;
     background-color: rgb(163, 211, 253);
     border-radius: 15px;
-    /* debug */
-    min-height: 400px;
 }
 
 .col {text-align: center;
@@ -131,12 +130,14 @@ line-height: 1.8rem;}
 }
 
 .btn-big {
-    margin: 2rem auto;
+    margin: 2rem 0;
     background-color: rgb(65, 152, 227);
     color: white;
     padding: .5rem;
     border-radius: 20px;
     text-align: center;
+    width: 60%;
+    letter-spacing: .2em;
 }
 
 .btn-big i {
@@ -170,7 +171,7 @@ line-height: 1.8rem;}
 
     .btn-big {
         width: 50%;
-        margin: 2rem 0;
+        
     }
     .card-text {
         padding: 0;
@@ -189,10 +190,14 @@ line-height: 1.8rem;}
     }
     .card-text {
         width: 50%;
-        font-size: 1.2rem;
-        
+        font-size: 1.2rem;     
     }
 
+    .btn-big {
+        width: 70%;
+        
+    }
+  
     .img-col-big {
         width: 40%;
         margin: 0 auto;
